@@ -1,6 +1,6 @@
 # Hello Barcode Xpress for .NET
 
-A minimal [Barcode Xpress for .NET](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/13.5.2308-preview)
+A minimal [Barcode Xpress for .NET](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/)
 application which detects barcodes on a given bitmap image.
 
 ## Requirements
@@ -8,7 +8,7 @@ application which detects barcodes on a given bitmap image.
 Visual Studio 2012-2019 to build the sample.
 
 For the full list of requirements to run the sample,
-refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/preview/BxNet/webframe.html#System_Requirements.html).
+refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#System_Requirements.html).
 
 ## Running the Sample
 
