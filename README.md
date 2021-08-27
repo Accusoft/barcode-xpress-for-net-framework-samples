@@ -1,26 +1,30 @@
-# Hello Barcode Xpress for .NET
+# Barcode Xpress for .NET Samples
 
-A minimal [Barcode Xpress for .NET](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/)
-application which detects barcodes on a given bitmap image.
+A set of minimal [Barcode Xpress for .NET](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/)
+applications written for C# and VB.NET. Each language has the following samples:
+
+* read-barcodes - Demonstrates how to read barcodes from an image.
+* write-barcodes-1d - Demonstrates how to generate a 1D Code 39 Barcode.
+* write-barcodes-2d - Demonstrates how to generate a 2D DataMatrix Barcode.
 
 ## Requirements
 
-Visual Studio 2012-2019 to build the sample.
+Visual Studio 2012-2019 to build the samples.
 
 For the full list of requirements to run the sample,
 refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#System_Requirements.html).
 
 ## Running the Sample
 
-First, open the solution file (ReadBarcodes.sln) in Visual Studio and build it.
-This will also restore required the NuGet packages.
+First, open one of the solution files (Files ending in .sln) in Visual Studio
+and build it. This will also restore required the NuGet packages.
 
 Then, open the Command Prompt window, change the directory to the sample
 location, and start the app:
 
     .\bin\Debug\ReadBarcodes.exe
 
-This will run the sample and you should see output like this:
+For the reader samples you should see output like this:
 
     Results:
     [
@@ -155,6 +159,9 @@ This will run the sample and you should see output like this:
       },
       ...
     ]
+
+For the writer samples, a file called test-barcodes.bmp will be created in
+the bin/Debug folder that contains the generated barcode image.
 
 _**NOTE:** Barcode Xpress runs in Watermark evaluation mode if started without
 a license and the barcode value will be partially hidden. If you would like to
