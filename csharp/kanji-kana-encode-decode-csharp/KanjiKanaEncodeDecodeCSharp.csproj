@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C83B3FA-0B73-4CDA-82B7-577977835A97}</ProjectGuid>
+    <ProjectGuid>{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ReadBarcodes</RootNamespace>
-    <AssemblyName>ReadBarcodes</AssemblyName>
+    <RootNamespace>KanjiKanaEncodeDecodeCSharp</RootNamespace>
+    <AssemblyName>KanjiKanaEncodeDecodeCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -37,9 +37,6 @@
     <Reference Include="Accusoft.BarcodeXpress13.Net, Version=13.5.0.2451, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
       <HintPath>packages\Accusoft.BarcodeXpress.Net.13.5.2451\lib\net40\Accusoft.BarcodeXpress13.Net.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -50,16 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReadBarcodes.cs" />
+    <Compile Include="KanjiKanaEncodeDecodeCSharp.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\..\test-barcodes.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

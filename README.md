@@ -6,6 +6,8 @@ applications written for C# and VB.NET. Each language has the following samples:
 * read-barcodes - Demonstrates how to read barcodes from an image.
 * write-barcodes-1d - Demonstrates how to generate a 1D Code 39 Barcode.
 * write-barcodes-2d - Demonstrates how to generate a 2D DataMatrix Barcode.
+* kanji-kana-encode-decode - Demonstrates how to create and read QR barcodes
+with Japanese Kanji/Kana symbols.
 
 ## Requirements
 
@@ -160,8 +162,8 @@ For the reader samples you should see output like this:
       ...
     ]
 
-For the writer samples, a file called test-barcodes.bmp will be created in
-the bin/Debug folder that contains the generated barcode image.
+For the writer and Kanji/Kana samples, a file called test-barcodes.bmp will be
+created in the bin/Debug folder that contains the generated barcode image.
 
 _**NOTE:** Barcode Xpress runs in Watermark evaluation mode if started without
 a license and the barcode value will be partially hidden. If you would like to

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanjiKanaEncodeDecodeCSharp", "KanjiKanaEncodeDecodeCSharp.csproj", "{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB404A7-5584-42E5-8AB2-1BBCBE9528AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60F41F0D-F9A1-42C8-890A-9671DF51442E}
+	EndGlobalSection
+EndGlobal
