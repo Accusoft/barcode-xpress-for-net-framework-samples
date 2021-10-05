@@ -14,7 +14,7 @@ with Japanese Kanji/Kana symbols.
 Visual Studio 2012-2019 to build the samples.
 
 For the full list of requirements to run the sample,
-refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#System_Requirements.html).
+refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#system-requirements.html).
 
 ## Running the Sample
 

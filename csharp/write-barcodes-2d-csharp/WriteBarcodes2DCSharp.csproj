@@ -32,8 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Accusoft.BarcodeXpress13.Net, Version=13.5.0.2451, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
-      <HintPath>packages\Accusoft.BarcodeXpress.Net.13.5.2451\lib\net40\Accusoft.BarcodeXpress13.Net.dll</HintPath>
+    <Reference Include="Accusoft.BarcodeXpress13.Net, Version=13.6.0.2812, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>packages\Accusoft.BarcodeXpress.Net.13.6.2812\lib\net40\Accusoft.BarcodeXpress13.Net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
