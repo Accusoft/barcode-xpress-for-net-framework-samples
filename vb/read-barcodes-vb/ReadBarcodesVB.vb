@@ -11,7 +11,7 @@ Module ReadBarcodesVB
         Dim imagePath As String = "test-barcodes.bmp"
         ' Search all types of barcodes in an image file (by default all 1D barcodes).
         ' For the full list of options, see the API reference
-        ' at https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#API_Reference.html
+        ' at https://help.accusoft.com/BarcodeXpress/latest/BxNetFramework/webframe.html#api-reference.html
         Using barcodeXpress As BarcodeXpress = New BarcodeXpress("."),
                 bitmap As Bitmap = New Bitmap(imagePath)
 

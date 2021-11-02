@@ -1,6 +1,6 @@
-# Barcode Xpress for .NET Samples
+# Barcode Xpress for .NET Framework Samples
 
-A set of minimal [Barcode Xpress for .NET](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/)
+A set of minimal [Barcode Xpress for .NET Framework](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/)
 applications written for C# and VB.NET. Each language has the following samples:
 
 * read-barcodes - Demonstrates how to read barcodes from an image.
@@ -9,12 +9,15 @@ applications written for C# and VB.NET. Each language has the following samples:
 * kanji-kana-encode-decode - Demonstrates how to create and read QR barcodes
 with Japanese Kanji/Kana symbols.
 
+The samples use [Barcode Xpress for .NET Framework NuGet package](https://www.nuget.org/packages/Accusoft.BarcodeXpress.Net/).
+
 ## Requirements
 
-Visual Studio 2012-2019 to build the samples.
+Visual Studio 2012-2019 and .NET Framework 4.0 - 4.8
+to build and run the samples.
 
 For the full list of requirements to run the sample,
-refer to the [Barcode Xpress for .NET help](https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#system-requirements.html).
+refer to the [Barcode Xpress for .NET Framework help](https://help.accusoft.com/BarcodeXpress/latest/BxNetFramework/webframe.html#system-requirements.html).
 
 ## Running the Sample
 

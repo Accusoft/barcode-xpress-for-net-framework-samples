@@ -11,7 +11,7 @@ namespace ReadBarcodes
         {
             // Search for specific types of barcodes in an image file (by default all 1D barcodes).
             // For the full list of options, see the API reference
-            // at https://help.accusoft.com/BarcodeXpress/latest/BxNet/webframe.html#API_Reference.html
+            // at https://help.accusoft.com/BarcodeXpress/latest/BxNetFramework/webframe.html#api-reference.html
             using (BarcodeXpress barcodeXpress = new BarcodeXpress("."))
             using (Bitmap bitmap = new Bitmap("test-barcodes.bmp"))
             {

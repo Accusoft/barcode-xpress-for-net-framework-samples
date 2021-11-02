@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WriteBarcodes1DCSharp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WriteBarcodes1D C#")]
+[assembly: AssemblyDescription("C# WriteBarcodes1D sample")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WriteBarcodes1DCSharp")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("Accusoft Corporation")]
+[assembly: AssemblyProduct("Barcode Xpress .NET Framework")]
+[assembly: AssemblyCopyright("Copyright ©  2002-2021. Accusoft Corporation.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

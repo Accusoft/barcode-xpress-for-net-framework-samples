@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WriteBarcodes1DVB")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("WriteBarcodes1DVB")> 
-<Assembly: AssemblyCopyright("Copyright ©  2021")> 
+<Assembly: AssemblyTitle("WriteBarcodes1D Visual Basic")> 
+<Assembly: AssemblyDescription("Visual Basic WriteBarcodes1D sample")> 
+<Assembly: AssemblyCompany("Accusoft Corporation")> 
+<Assembly: AssemblyProduct("Barcode Xpress .NET Framework")> 
+<Assembly: AssemblyCopyright("Copyright ©  2002-2021. Accusoft Corporation.")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
