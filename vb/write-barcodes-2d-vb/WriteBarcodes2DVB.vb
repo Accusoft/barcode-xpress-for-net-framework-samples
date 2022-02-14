@@ -33,6 +33,8 @@ Module WriteBarcodes2DVB
                 Using bitmap As Bitmap = dmWriter.CreateBitmap()
                     bitmap.Save("test-barcodes.bmp", ImageFormat.Bmp)
                     Console.WriteLine("Barcode Image has been created successfully.")
+                    Console.WriteLine("Press enter to exit...")
+                    Console.ReadLine()
                 End Using
 
             End Using

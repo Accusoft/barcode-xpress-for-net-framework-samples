@@ -53,6 +53,9 @@ Module KanjiKanaEncodeDecodeVB
 
         End Using
 
+        Console.WriteLine("Press enter to exit...")
+        Console.ReadLine()
+
     End Sub
 
 End Module

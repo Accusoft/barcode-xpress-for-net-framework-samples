@@ -59,6 +59,8 @@ namespace KanjiKanaEncodeDecodeCSharp
                     }
                 }
             }
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
     }
 }

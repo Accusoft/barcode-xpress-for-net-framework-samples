@@ -28,6 +28,8 @@ Module ReadBarcodesVB
 
             Console.WriteLine("Results:")
             Console.WriteLine(JsonConvert.SerializeObject(results, Formatting.Indented))
+            Console.WriteLine("Press enter to exit...")
+            Console.ReadLine()
         End Using
     End Sub
 

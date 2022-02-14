@@ -42,9 +42,10 @@ namespace WriteBarcodes2DCSharp
                         bitmap.Save("test-barcodes.bmp", ImageFormat.Bmp);
                         Console.WriteLine("Barcode image has been created successfully");
                     }
-                    
                 }
             }
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
     }
 }

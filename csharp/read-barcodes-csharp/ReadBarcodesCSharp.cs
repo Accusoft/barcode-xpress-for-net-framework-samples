@@ -15,18 +15,13 @@ namespace ReadBarcodes
             using (BarcodeXpress barcodeXpress = new BarcodeXpress("."))
             using (Bitmap bitmap = new Bitmap("test-barcodes.bmp"))
             {
-                barcodeXpress.reader.BarcodeTypes = new BarcodeType[]
-                {
-                    BarcodeType.Code39Barcode,
-                    BarcodeType.IntelligentMailBarcode,
-                    BarcodeType.Code128Barcode,
-                    BarcodeType.DataMatrixBarcode,
-                    BarcodeType.QRCodeBarcode
-                };
+                barcodeXpress.reader.BarcodeTypes = Enum.GetValues(typeof(BarcodeType));
                 Accusoft.BarcodeXpressSdk.Result[] results = barcodeXpress.reader.Analyze(bitmap);
 
                 Console.WriteLine("Results:");
                 Console.WriteLine(JsonConvert.SerializeObject(results, Formatting.Indented));
+                Console.WriteLine("Press enter to exit...");
+                Console.ReadLine();
             }
         }
     }

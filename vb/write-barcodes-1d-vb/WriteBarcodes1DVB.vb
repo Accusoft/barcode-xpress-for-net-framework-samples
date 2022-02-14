@@ -23,6 +23,8 @@ Module WriteBarcodes1DVB
             ' Save the created bitmap to a local file.
             MyBitmap.Save("test-barcodes.bmp")
             Console.WriteLine("Barcode image has been created successfully")
+            Console.WriteLine("Press enter to exit...")
+            Console.ReadLine()
         End Using
     End Sub
 

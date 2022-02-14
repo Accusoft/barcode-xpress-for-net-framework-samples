@@ -27,6 +27,8 @@ namespace WriteBarcodes1DCSharp
                 // Save the created bitmap to a local file.
                 bitmap.Save("test-barcodes.bmp");
                 Console.WriteLine("Barcode image has been created successfully");
+                Console.WriteLine("Press enter to exit...");
+                Console.ReadLine();
             }
         }
     }
