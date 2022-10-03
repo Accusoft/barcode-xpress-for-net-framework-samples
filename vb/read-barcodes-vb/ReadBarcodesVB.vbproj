@@ -54,8 +54,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Accusoft.BarcodeXpress13.Net, Version=13.7.0.2960, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
-      <HintPath>packages\Accusoft.BarcodeXpress.Net.13.7.2960\lib\net40\Accusoft.BarcodeXpress13.Net.dll</HintPath>
+    <Reference Include="Accusoft.BarcodeXpress13.Net, Version=13.9.0.3174, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <HintPath>packages\Accusoft.BarcodeXpress.Net.13.9.3174\lib\net40\Accusoft.BarcodeXpress13.Net.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
